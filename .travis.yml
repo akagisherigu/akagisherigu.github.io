@@ -8,8 +8,8 @@ before_install:
 
 install:
   - npm install hexo-cli -g
+ #  - npm install cheerio@0.22.0 hexo-renderer-pug hexo-renderer-stylus 
   - npm install
-  - npm install cheerio@0.22.0 hexo-renderer-pug hexo-renderer-stylus
 
 #before_script:
         #  - sed -i "s/https:\/\/\(github\.com\/m4d3bug\/m4d3bug\.github\.io\.git\)/https:\/\/$ACCESS_TOKEN@\1/" _config.yml
